@@ -27,7 +27,7 @@ powerdata=powerdata[,c(8,1:7)]
 
 # Plot 3
 with(powerdata, {
-        plot(Sub_metering_1~Date_Time,type="l", ylab="Global Active Power (kilowatts)", xlab="")
+        plot(Sub_metering_1~Date_Time,type="l", ylab="Energy Sub Metering", xlab="")
         lines(Sub_metering_2~Date_Time,col="Red")
         lines(Sub_metering_3~Date_Time,col="Blue")
 })
